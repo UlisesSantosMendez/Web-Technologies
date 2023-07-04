@@ -1,0 +1,2 @@
+Port: 3306
+X protocol port: 33060
