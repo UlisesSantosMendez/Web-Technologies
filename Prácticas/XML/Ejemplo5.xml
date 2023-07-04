@@ -1,0 +1,15 @@
+<elemento_raiz>
+    <elemento_rama_1>
+        <elemento_hoja_1_1> </elemento_hoja_1_1>
+        <elemento_hoja_1_2> </elemento_hoja_1_2>
+        <elemento_hoja_1_3> </elemento_hoja_1_3>
+    </elemento_rama_1>
+    
+    <elemento_hoja_2></elemento_hoja_2>
+    
+    <elemento_rama_3>
+        <elemento_rama_3_1>
+            <elemento_hoja_3_1_1> </elemento_hoja_3_1_1>
+        </elemento_rama_3_1>
+    </elemento_rama_3>
+</elemento_raiz>

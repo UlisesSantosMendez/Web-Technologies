@@ -1,0 +1,41 @@
+<nota-remision>
+	<titulo>NOTA DE REMISION</titulo>
+	<datos-remision>
+		<num-remision formato="numero-entero">
+		</num-remision>
+		<num-pedido formato="numero-entero">
+		</num-pedido>
+		<fecha dia="texto" mes="texto" anio="numero">
+		</fecha>
+		<cliente cadena="texto">
+		</cliente>
+		<domicilio cadena="texto">
+		</domicilio>
+		<ciudad cadena="texto">
+		</ciudad>
+		<telefono cadena="numerico">
+		</telefono>
+	</datos-remision>
+	<cuerpo-remision>
+		<datos-por-linea>
+			<cantidad formato="numero-entero">
+			</cantidad>
+			<articulo cadena="alfanumerico">
+			</articulo>
+			<precio-unitario formato="numero">
+			</precio-unitario>
+			<importe valor="numero">
+			</importe>
+		</datos-por-linea>
+		<datos-de-compra>
+			<subtotal valor="numero"></subtotal>
+			<iva valor="numero-adicional"></iva>
+			<total valor="entero"></total>
+		</datos-de-compra>
+	</cuerpo-remision>
+	<pie-remision>
+		<formulo cadena="texto"></formulo>
+		<conducto medio="transporte"></conducto>
+		<recibi lugar="destino"></recibi>
+	</pie-remision>
+</nota-remision>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE Casas_Rurales[
+                <!ELEMENT Casas_Rurales (Casa)*>
+                <!ELEMENT Casa (Dirección, Descripción, Estado, Tamano)>
+                <!ELEMENT Dirección (#PCDATA)>
+                <!ELEMENT Descripción (#PCDATA)>
+                <!ELEMENT Estado (#PCDATA)>
+                <!ELEMENT Tamano (#PCDATA)>
+                ]>
+<Casas_Rurales>
+                
+</Casas_Rurales>

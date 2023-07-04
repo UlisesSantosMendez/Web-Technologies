@@ -1,0 +1,67 @@
+<formato-pagare>
+	<encabezado-pagare>
+		<leyenda>PAGARÉ</leyenda>
+		<num-folio formato="numero entero">
+		</num-folio>
+		<leyenda>BUENO POR $
+			<cantidad-numero formato="numero-entero">
+			</cantidad-numero>
+		</leyenda>
+		<br>
+		<leyenda>En
+			<lugar-expedicion formato="texto">
+			</lugar-expedicion>
+			a 
+			<fecha-expedicion dia="numero-entero" mes="texto" anio="numero-entero">
+			</fecha-expedicion>
+		</leyenda>
+	</encabezado-pagare>
+	<br>
+	<cuerpo-pagare>
+		<leyenda>Debo(emos) y pagaré(mos) incondicionalmente por este pagaré a la orden de
+			<nombre-acreedor formato="texto">
+			</nombre-acreedor>
+			en
+			<lugar-de-pago formato="texto">
+			</lugar-de-pago>
+			el
+			<fecha-de-pago dia="numero-entero" mes="texto" anio="numero-entero"> 
+			</fecha-de-pago>
+			<br>
+			La cantidad de:
+			<cantidad-letra formato="caracter">
+			</cantidad-letra>
+			Valor recibido a mi (nuestra) entera satisfacción.
+			Este pagaré forma parte de una serie numerada del 1 al
+			<num-serie formato="numero-entero">
+			</num-serie>
+			y todos estan suejtos a la condicion de que al
+			no pagarse culaquiera de ellos a su vencimiento,
+			seran exigibles todos los que sigan en número,
+			además de los ya vencidos, desde la fecha de
+			vencimiento de este documento hasta el dia de su
+			liquidación causará intereses moratorios al
+			tipo de
+			<numero formato="numero-entero"></numero>
+			% mensual, pagadero en esta ciudad
+			juntamente con el principal.
+		</leyenda>
+	</cuerpo-pagare>
+	<br>
+	<pie-pagare>
+		<datos-del-deudor>
+			<nombre-deudor formato="texto"></nombre-deudor>
+			<direccion-del-deudor formato="texto" colonia="texto">
+			</direccion-del-deudor>
+			<telefono formato="numero-entero">
+			</telefono>
+			<poblacion formato="texto">
+			</poblacion>
+		</datos-del-deudor>
+		<br>
+		<leyenda>Acepto(amos)</leyenda>
+		<leyenda>Firma(s)
+			<img></img> <!--canvas:Es un espacio que te permite dibujar dentro de el o insertar imagen-->
+		</leyenda>
+	</pie-pagare>
+</formato-pagare>

@@ -1,0 +1,62 @@
+<receta-IMSS>
+	<membrete-receta>
+		<logo-IMSS></logo-IMSS>
+		<nombre-institucion>INSTITUTO MEXICANO DEL SEGURO SOCIAL
+		</nombre-institucion>
+		<subtitulo>SEGURIDAD Y SOLIDARIDAD SOCIAL
+		</subtitulo>
+		<nombre-departamento>DIRECCION DE PRESTACIONES MEDICAS
+		</nombre-departamento>
+		<leyenda>
+			RECETA INDIVIDUAL
+			<br/>
+			INFORMACION CONFIDENCIAL
+		</leyenda>
+		<codigo barra="consecutivo"></codigo>
+		<folio cadena="alfanumerico"></folio>
+		<advertencia>
+			ESTA RECETA NO SE SURTIRA DESPUES DE LAS 72 HORAS DE SU EXPEDICION
+		</advertencia>
+	</membrete-receta>
+	<datos-paciente>
+		<NSS cadena="numerica"></NSS>
+		<a-medico cadena="alfanumerico"></a-medico>
+		<nombre-paciente formato="texto">
+		</nombre-paciente>
+		<nombre-delegacion formato="texto">
+		</nombre-delegacion>
+		<unidad formato="texto">
+		</unidad>
+		<cve-ptal cadena="numerico">
+		</cve-ptal>
+		<consultorio cadena="alfanumerico">
+		</consultorio>
+		<turno formato="texto">
+		</turno>
+	</datos-paciente>
+	<cuerpo-receta>
+		<datos-receta>
+			<fecha-expedicion cadena="alfanumerico">
+			</fecha-expedicion>
+			<clave-medicamento formato="numero-entero">
+			</clave>
+			<nombre-medicamento formato="texto">
+			</nombre-medicamento>
+			<presentacion>
+				<contenido formula="alfanumerico">
+				</contenido>
+			</presentacion>
+			<indicacion-medica cantidad="numero" tiempo="numero-hora" consumo="numero-dias" surtido="numero-evase">
+			</indicacion-medica>
+		</datos-receta>
+		<datos-medico>
+			<nombre-medico cadena="texto">
+			</nombre-medico>
+			<firma></firma>
+			<cedula-profesional cadena="numerico">
+			</cedula-profesional>
+			<matricula cadena="numerico">
+			</matricula>
+		</datos-medico>
+	</cuerpo-receta>
+</receta-IMSS>

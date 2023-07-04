@@ -1,0 +1,75 @@
+#contenedor {
+  width: 1200px;
+  height: 1000px;
+  background: rebeccapurple;
+  margin: 0.5em auto;
+  padding: 00.5em;
+}
+#header {
+  height: 20%;
+  background: red;
+  border-radius: 1em;
+  margin: 1em;
+}
+#nav {
+  height: 10%;
+  background: blue;
+  border-radius: 1em;
+  margin: 1em;
+}
+#contenido {
+  height: 53%;
+  background: rgb(0, 123, 255);
+}
+
+#footer {
+  height: 10%;
+  background: pink;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+#section {
+  width: 65%;
+  height: 95%;
+  background-color: aqua;
+  border-radius: 1em;
+  float: left;
+  margin-left: 1em;
+}
+#aside {
+  width: 30%;
+  height: 95%;
+  background: green;
+  border-radius: 1em;
+  float: left;
+  margin-left: 1em;
+}
+.article1 {
+  width: 95%;
+  height: 20%;
+  background: fuchsia;
+  border-radius: 1em;
+  margin: 1em;
+}
+.article2 {
+  width: 95%;
+  height: 20%;
+  background: rgb(255, 123, 0);
+  border-radius: 1em;
+  margin: 1em;
+}
+.article3 {
+  width: 95%;
+  height: 20%;
+  background: rgb(0, 255, 208);
+  border-radius: 1em;
+  margin: 1em;
+}
+.article4 {
+  width: 95%;
+  height: 20%;
+  background: rgb(179, 255, 0);
+  border-radius: 1em;
+  margin: 1em;
+}
