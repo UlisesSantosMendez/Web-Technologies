@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario 5 elemento URL</title>
+		<meta http-equiv="Content-Type" content="text/html; charset-UTF-8">
+		<meta name="author" content="Ulises Jes&uacute;s Santos M&eacute;ndez">
+		<meta name="description" content="formulario 5 URL">
+		<meta name="keywords" content="HTML,form,URL,Script">
+		<meta name="copyright" content="© ULises JSM">
+	</head>
+	
+	<body>
+		<form action="https://syatraveling.com/" method="get" name="formulario5">
+			Elemento de URL:<input type="url" id="SyA_traveling" value="https://syatraveling.com/">
+			<button onclick="busquedaURL()">intenta</button>
+			<p id="SyA_traveling"></p>
+			<script> <!--Segmento de código-->
+				function busquedaURL(){
+					var x = document.getElementById("SyA_traveling").value;
+					document.getElementById("SyA_traveling").innerHTML = x;
+				}
+			</script>
+		</form>
+	</body>
+</html>

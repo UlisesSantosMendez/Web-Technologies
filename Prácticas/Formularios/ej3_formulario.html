@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario 3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset-UTF-8">
+		<meta name="author" content="Ulises Jes&uacute;s Santos M&eacute;ndez">
+		<meta name="description" content="todos los elementos del formulario">
+		<meta name="keywords" content="HTML,form">
+		<meta name="copyright" content="© ULises JSM">
+	</head>
+	<body>
+		<form action="/action_page.php" method="get" name="formulario3">
+			<fieldset>
+				<legend>formulario 3</legend>
+				<label for="usuario">Nombre del usuario:</label>
+				<input type="text" id="usuario" name="usuario"><br><br>
+				<input type="hidden" id="custId" name="custId" value="1234">
+				<p>Un campo oculto permite a los desarrolladores web incluir datos que los usuarios no pueden
+				   ver ni modificar cuando se envia un formulario.
+				   Un campo oculto a meudo almacena que registro de la base de datos debe actualizarse 
+				   cuando se envia el formulario.
+				</p>
+				<input type="submit" value="enviar"><br>
+			</fieldset>
+		</form>
+	</body>
+</html>

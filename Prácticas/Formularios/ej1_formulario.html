@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario1</title>
+		<meta http-equiv="Content-Type" content="text/html; charset-UTF-8">
+		<meta name="author" content="Ulises Jes&uacute;s Santos M&eacute;ndez">
+		<meta name="description" content="formulario 1 curriculum">
+		<meta name="keywords" content="HTML,img,map">
+		<meta name="copyright" content="© ULises JSM">
+	</head>
+	<body align="center">
+		<form action="mailto:ulisesjesus04@gmail.com" method="get" name="formulario1">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				Nombre:<input type="text" id="nombre" name="nombre"><br>
+				Apellido Paterno:<input type="text" id="a_paterno" name="a_paterno"><br>
+				Apellido Materno:<input type="text" id="a_materno" name="a_materno"><br>
+				correo electr&oacute;nico:<input type="email" id="correo" name="correo"><br>
+				Edad:<input type="num" id="edad" name="edad"><br>
+				Fecha de cumpleaños:<input type="date" id="fcumple" name="fcumple"><br>
+				G&eacute;nero:<input type="radio" id="genero_mujer" name="genero" value="Mujer">Mujer<br>
+				<input type="radio" id="genero_hombre" name="genero" value="Hombre">Hombre
+			</fieldset>
+			<br>
+			<br>
+			<fieldset>
+				<legend>Datos Acad&eacute;micos</legend>
+				Escuela:<input type="text" id="escuela" name="escuela"><br><br>
+				Semestre:<input type="text" id="semestre" name="semestre"><br><br>
+				Correo electr&oacute;nico institucional:<input type="email" id="correo_inst" name="correo_inst"><br><br>
+				Fecha de ingreso a la escuela:<input type="date" id="fingreso" name="fingreso"><br><br>
+				Materias cursadas:
+				<select name="materias cursadas" id="materias_cursadas">
+					<option value="mate_discretas">Matematicas Discretas</option>
+					<option value="Tec_Web">Tecnologias para la Web</option>
+					<option value="IA">Inteligencia Artificial</option>
+					<option value="Fisica">Fisica</option>
+					<option value="Calculo">Calculo</option>
+				</select>
+				Estatus acad&eacute;mico:
+				<select name="status" id="status">
+					<option value="regular">Regular</option>
+					<option value="irregular_s">Irregular sin dictamen</option>
+					<option value="irregular_c">Irregular con dictamen</option>
+				</select>
+			</fieldset>
+			<br>
+			<input type="submit" id="enviar" name="enviar" value="enviar"><br><br>
+			<input type="reset" id="limpiar" name="limpiar" value="limpiar"><br><br>
+		</form>
+	</body>
+</html>

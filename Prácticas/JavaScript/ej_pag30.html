@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Listas desplegables</title>
+		<script languaje="JavaScript">
+			function MarcasSeleccionadas(){
+				with(document.formulario)
+				for(i=0;i<Marcas.length;i++)
+				if (Marcas.options[i].selected)
+				alert(Marcas.options[i].text+" seleccionada")
+			}
+			function CrearAreaTexto(){
+				OtraVentana=window.open("","MiVentana","width=200, height=75")
+				OtraVentana.document.write("<textarea rows=3 cols=20>")
+				with(document.formulario)
+				for(i=0;i<Marcas.length;i++)
+				if(Marcas.options[i].selected)
+				OtraVentana.document.write(Marcas.options[i].text+"")
+				OtraVentana.document.write("</textarea>")
+			}
+		</script>
+	</head>
+	<body>
+		<form name="formulario">
+			<h1>Seleccion de marcas</h1>
+			<select name="Marcas" multiple>
+				<option>Audi</option>
+				<option>BMW</option>
+				<option>Ferrari</option>
+				<option>Porsche</option>
+				<option>Seat</option>
+				<option>Volvo</option>
+			</select>
+			<input type="submit" onclick="MarcasSeleccionadas()">
+			<input type="button" value="Crear Area" onclick="CrearAreaTexto()">
+		</form>
+	</body>
+</html>

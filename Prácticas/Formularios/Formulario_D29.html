@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario Diapositiva 29</title>
+		<meta http-equiv="Content-Type" content="text/html; charset-UTF-8">
+		<meta name="author" content="Ulises Jes&uacute;s Santos M&eacute;ndez">
+		<meta name="description" content="formulario ¿C&oacute;mo te sientes?">
+		<meta name="keywords" content="HTML,form,URL">
+		<meta name="copyright" content="© ULises JSM">
+	</head>
+	<body style="background-color:#FFBC00;">
+		<center>
+			<table border="1">
+				<h1><center>FORMULARIO ¿C&Oacute;MO TE SIENTES?</center></h1>
+				<form name="Formulario" action="mailto:ulisesjesus04@gmail.com"
+					subject="Prueba" method="Post" enctype="text/plain" autocomplete="on">
+					<tr>
+						<td>Nombre:</td>
+						<td><input type="text" name="nombre" autofocus="autofocus"></td>
+						<td>Contraseña:</td>
+						<td><input type="password" name="contraseña" autofocus="autofocus"></td>
+					</tr>
+					<tr>
+						<td>Describete:</td>
+						<td colspan="3"><textarea></textarea></td>
+					</tr>
+					<tr>
+						<td>Estoy:<br>
+							<input type="checkbox" name="respuesta" value="enojado">enojado<br>
+							<input type="checkbox" name="respuesta" value="contento">contento<br>
+							<input type="checkbox" name="respuesta" value="triste">triste<br>
+							<input type="checkbox" name="respuesta" value="deprimido">deprimido<br>
+						</td>
+						<td>Me gustar&iacute;a:<br>
+							<input name="respuesta" type="radio" value="bien">estar bien<br>
+							<input name="respuesta" type="radio" value="sonreir">sonreir<br>
+							<input name="respuesta" type="radio" value="tranquilo">estar tranquilo<br>
+							<input name="respuesta" type="radio" value="nose">no lo s&eacute;<br>
+						</td>
+						<td>Selecci&oacute;n<br>simple:
+							<br>
+							<center>
+								<select name="respuesta">
+									<option value="1">Opci&oacute;n 1</option>
+									<option value="2">Opci&oacute;n 2</option>
+									<option value="3">Opci&oacute;n 3</option>
+								</select>
+							</center>
+						</td>
+						<td>
+							<select name="respuesta" size="3" multiple>
+								<option value="1">Opci&oacute;n 1</option>
+								<option value="2">Opci&oacute;n 2</option>
+								<option value="3">Opci&oacute;n 3</option>
+							</select>
+						</td>
+					</tr>
+					<input type="submit" name="aceptar" value="Enviar">
+					<input type="reset" name="limpiar" value="Limpiar">
+					<input type="button" name="calcula" value="Calcular">
+				</form>
+		</center>
+		</table>
+	</body>
+</html>

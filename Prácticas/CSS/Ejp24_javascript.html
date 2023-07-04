@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Cajas de Verificacion</title>
+		<script languaje="JavaScript">
+			function ComprobarDatos(){
+				with (document.formulario)
+				if((Menu.checked)&&(Vegetariano.checked)){
+					alert("No hay menu especial vegetariano")
+					Menu.focus()
+				}
+				else{
+					submit()
+					alert("Datos enviados")
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form name="formulario">
+			Datos del embarque
+			<br>
+			<input type="checkbox" name="Vegetariano">
+			Vegetariano
+			<br>
+			<input type="checkbox" name="Menor" onclick="alert('Pedir apellido paterno')">
+			Menor de edad
+			<br>
+			<input type="checkbox" name="Menu">
+			Menu especial
+			<br>
+			<input type="submit" name="Enviar" onclick="ComprobarDatos()">
+		</form>
+	</body>
+</html>

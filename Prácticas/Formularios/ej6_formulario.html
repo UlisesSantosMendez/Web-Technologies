@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario 6</title>
+		<meta http-equiv="Content-Type" content="text/html; charset-UTF-8">
+		<meta name="author" content="Ulises Jes&uacute;s Santos M&eacute;ndez">
+		<meta name="description" content="todos los elementos del formulario">
+		<meta name="keywords" content="HTML,form">
+		<meta name="copyright" content="© ULises JSM">
+	</head>
+	<body>
+		<form action="algo.php" method="get" name="formulario6" onfocus>
+			<fieldset>
+				<legend>Primer formulario</legend>
+				Elemento texto:
+				<input type="text" id="nombre" name="nombre" placeholder="escribe tu nombre"><br><br>
+				Elemento correo electronico:
+				<input type="email" id="correo" name="correo"><br><br>
+				Elemento number:
+				<input type="number" id="numero" name="numero" min="0" max="30" step="2"><br><br>
+				Elemento de seleccion multiple:
+				<select name="materias cursadas" id="materias_cursadas" size="5" multiple>
+						<option value="mate_discretas">Matematicas Discretas</option>
+						<option value="Tec_Web">Tecnologias para la Web</option>
+						<option value="IA">Inteligencia Artificial</option>
+						<option value="Fisica">Fisica</option>
+						<option value="Calculo">Calculo</option>
+						<option value="ADO">Analisis y Diseño Orientado a Objetos</option>
+						<option value="Ing_soft">Ingenieria de Software</option>
+						<option value="PyE">Probabilidad y Estadistica</option>
+						<option value="DSD">Diseño de sistemas digitales</option>
+						<option value="Ins">Instrumentacion</option>
+				</select>
+				<br><br>
+				Elementolemento de seleccion simple:
+				<select name="estatus" id="estatus">
+					<option value="regular">Regular</option>
+					<option value="irregular_s">Irregular sin dictamen</option>
+					<option value="irregular_c">Irregular con dictamen</option>
+				</select>
+				<br><br>
+				Elemento de datalist:
+				<input list="navegadores">
+				<datalist id="navegadores">
+					<option value="chrome">
+					<option value="edge">
+					<option value="Safari">
+					<option value="Firefox">
+					<option value="Opera">
+					<option value="Internet Explorer">
+				</datalist>
+				<br><br>
+				<meter id="fracciones" name="fracciones" min="0" max="100" low="33" high="66" optimum="80" value="50">50/100</meter>
+				
+				Elemento de reset:
+				<input type="reset" id="limpiar" name="limpiar" value="limpiar"><br><br>
+				Elemento de submit:
+				<input type="submit" id="enviar" name="enviar" value="enviar"><br><br>
+				
+				
+				Elemento de hidden:
+				<label for="hidden1">palabra clave:</label>
+					<input type="text" id="palabra_clave" name="palabra_clave"><br><br>
+					<input type="hidden" id="hidden1" name="hidden1" value="3487">
+				Elemento de busqueda:
+				<input type="search" id="busqueda" name="busqueda"><br><br>
+				Elemento de color:
+				<input type="color" id="color" name="color"><br><br>
+				Elemento de imagen:
+				<input type="image" src="IMG_2020.jpg" alt="robot" "width="100" height="100"> <!--style="float:right"--><br><br>
+				Elemento de rango:
+				<input type="range" id="rango" name="rango" min="0" max="50" step="5"><br><br>
+				Elemento de telefono:
+				<input type="tel" id="telefono" name="telefono" maxlength="10"><br><br>
+				Elemento de month:
+				<input type="month" id="mes" name="mes"><br><br>
+				Elemento de week:
+				<input type="week" id="semana" name="semana"><br><br>
+				Elemento de date:
+				<input type="date" id="fecha" name="fecha"><br><br>
+				Elemento de datetime_local:
+				<input type="datetime-local" id="fechayhorapc" name="fechayhorapc"><br><br>
+				Elemento de password:
+				<input type="password" id="clave" name="clave"><br><br>
+				Elemento de archivo libre (culaquier tipo):
+				<input type="file" id="archivo" name="archivo"><br><br>
+				Elemento de archivo1 con restriccion imagen:
+				<input type="file" id="archivo1" name="archivo1" accept="image/jpg,image/png"><br><br>
+				Elemento de archivo2 con restriccion doc pdf docx:
+				<input type="file" id="archivo2" name="archivo2" accept=".doc,.docx,.pdf"><br><br>
+				Elemento de archivo3 con otra restriccion de video:
+				<input type="file" id="archivo3" name="archivo3" accept="video/mp4" size="200MB"><br><br>
+				Elemento de URL: <input type="url" id="SyA_traveling" value="https://syatraveling.com/">
+				<button onclick="alert('hola chicos')">oprime</button>
+				<select id="comida" name="comida">
+					<optgroup label="mexicana">
+						<option>pambazo</option>
+						<option>tacos</option>
+						<option>chilaquiles</option>
+						<option>chiles en nogada</option>
+					</optgroup>
+					<optgroup label="rapida">
+						<option>hamburguesas</option>
+						<option>pizza</option>
+						<option>alitas</option>
+						<option>hotdogs</option>
+					</optgroup>
+					<optgroup label="cuando_no_tienes_tiempo">
+						<option>galletas</option>
+						<option>papas fritas</option>
+						<option>gomitas</option>
+						<option></option>
+					</optgroup>
+				</select>
+				Elemento de reset:
+				<input type="reset" id="limpiar" name="limpiar" value="limpiar"><br><br>
+				Elemento de submit:
+				<input type="submit" id="enviar" name="enviar" value="enviar"><br><br>
+			</fieldset>
+		</form>
+	</body>
+</html>

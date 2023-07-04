@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario 2</title>
+		<meta http-equiv="Content-Type" content="text/html; charset-UTF-8">
+		<meta name="author" content="Ulises Jes&uacute;s Santos M&eacute;ndez">
+		<meta name="description" content="formulario 2 curriculum">
+		<meta name="keywords" content="HTML,datalist,fieldset,option,input,get,textarea">
+		<meta name="copyright" content="© ULises JSM">
+	</head>
+	<body align="center">
+		<form action="pagqueprocesainfo.php" method="get" name="formulario1" autocomplete="on">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				Nombre:<input type="text" id="nombre" name="nombre" required placeholder="escribe tu nombre sin acento"><br><br>
+				Apellido Paterno:<input type="text" id="a_paterno" name="a_paterno" required><br>
+				Apellido Materno:<input type="text" id="a_materno" name="a_materno" required><br>
+				correo electr&oacute;nico:<input type="email" id="correo" name="correo" required><br>
+				Dirección1:<textarea id="dir1" name="dir1" rows="10" cols="10"></textarea><br><br>
+				Dirección2:<textarea id="dir2" name="dir2" style="width:200px; height:200px;" placeholder="escribe toda direccion sin abreviatura"></textarea><br><br>
+				Edad:<input type="num" id="edad" name="edad"><br>
+				Fecha de cumpleaños:<input type="date" id="fcumple" name="fcumple"><br>
+				G&eacute;nero:<input type="radio" id="genero_mujer" name="genero" value="Mujer">Mujer<br>
+				<input type="radio" id="genero_hombre" name="genero" value="Hombre">Hombre
+			</fieldset>
+			<br>
+			<br>
+			<fieldset>
+				<legend>Datos Acad&eacute;micos</legend>
+				Escuela:<input type="text" id="escuela" name="escuela"><br><br>
+				Semestre:<input type="text" id="semestre" name="semestre"><br><br>
+				Correo electr&oacute;nico institucional:<input type="email" id="correo_inst" name="correo_inst"><br><br>
+				Fecha de ingreso a la escuela:<input type="date" id="fingreso" name="fingreso"><br><br>
+				Materias cursadas:
+				<select name="materias cursadas" id="materias_cursadas" multiple>
+					<option value="mate_discretas">Matematicas Discretas</option>
+					<option value="Tec_Web">Tecnologias para la Web</option>
+					<option value="IA">Inteligencia Artificial</option>
+					<option value="Fisica">Fisica</option>
+					<option value="Calculo">Calculo</option>
+				</select>
+				<br>
+				<br>
+				Estatus acad&eacute;mico:
+				<select name="status" id="status">
+					<option value="regular">Regular</option>
+					<option value="irregular_s">Irregular sin dictamen</option>
+					<option value="irregular_c">Irregular con dictamen</option>
+				</select>
+			</fieldset>
+			<br><br>
+			Escribe el navegador que mas te guste usar:<input list="navegadores">
+			<datalist id="navegadores">
+				<option value="chrome">
+				<option value="edge">
+				<option value="Safari">
+				<option value="Firefox">
+				<option value="Opera">
+				<option value="Internet Explorer">
+			</datalist>
+			<br><br>
+			<select name="motos" id="motos">
+				<optgroup label="motocicletas">
+					<option value="CBR_250CC">Moto CBR 2500CC</option>
+					<option value="susuki_650cc DP">Moto susuki 650cc Doble Proposito</option>
+					<option value="yamaha_S3_300CC">Moto yamaha s3 300cc</option>
+					<option value="Vstrom_650cc_DP">Moto Vstrom 50cc Doble Proposito</option>
+				</optgroup>
+			<br><br>
+			<input type="submit" id="enviar" name="enviar" value="enviar"><br><br>
+			<input type="reset" id="limpiar" name="limpiar" value="limpiar"><br><br>
+			<button id="botoncito" name="botoncito" value="dame click" onclick="alert('hola chicos')">dame click</button>
+		</form>
+	</body>
+</html>

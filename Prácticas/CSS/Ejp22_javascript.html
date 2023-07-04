@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Cajas de Texto</title>
+		<script languaje="JavaScript">
+			function ValidarClave(){
+			with (document.formulario)
+			if(Usuario.value==""){
+			alert("Introduzca el nombre del usuario")
+			Usuario.focus()
+			}
+			else
+			if((Usuario.value=="Jesus")&&(Clave.value="papakt"))
+				alert ("Acceso permitido")
+			else
+				alert ("Acceso denegado")
+			}			
+
+		</script>
+	</head>
+	<body>
+		<form name="formulario">
+			Nombre: <input type="text" name="Usuario">
+			<br>
+			Clave: <input type="text" name="Clave" onblur="ValidarClave()">
+		</form>
+	</body>
+</html>
