@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p{
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 10px 0 10px auto;
+  text-align: justify;
+  line-height: 200%;
+}
+
+.logo {
+  height: 60px;
+  width: 100px;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  background-image: url('/project/src/fondo.jpg');
+  padding: 20px;
+  justify-content: space-around;
+  vertical-align: middle;
+  color: white;
+}
+
+/* Estilos de barra de navegación */
+nav{
+    background-color: #000;
+}
+
+ul, ol {
+    list-style:none;
+    font-weight: bold;
+}
+
+.nav > li {
+    float:left;
+    width:12.5%;
+}
+
+.active > .nav li a{
+  background-color: rgb(17, 0, 255);
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 10px;
+    display: block;
+    font-size: small;
+}
+
+.nav li a:hover {
+    transition: all 500ms ease;
+    background-color: rgb(17, 0, 255);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-279px;
+    top:0px;
+}
+
+.active{
+  background-color: rgba(17, 0, 255, 0.596);
+}
+
+.inactive{
+    pointer-events: none;
+    color: grey;
+}
+
+section {
+  width: 80%;
+  height: 500px;
+  float: left;
+  padding: 1rem;
+}
+
+aside {
+  width: 20%;
+  height: 500px;
+  background-color: rgba(141, 141, 141, 0.596);
+  float: left;
+  padding: 1rem;
+}
+
+.login-form {
+  margin-top: 2rem;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.login-form button {
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(9, 0, 141);
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  transition: all 500ms ease;
+  background-color: rgb(17, 0, 255);
+}
+
+.login-form a {
+  display: inline-block;
+  margin-top: 15px;
+  color: rgb(17, 0, 255);
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  transition: all 500ms ease;
+  color: rgb(9, 0, 141);
+  font-weight: bold;
+}
+
+.update{
+    margin: 10px;
+}
+
+.update label{
+    margin-top: 5rem;
+    padding: 10px;
+}
+
+.btn-success{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(9, 0, 141);
+    border-radius: 10px;
+}
+
+table{
+  font-size: small;
+  text-align: center;
+  margin-top: 2rem;
+  border-collapse: separate;
+  border-radius: 8px;
+}
+
+td,th{
+  border: 1px rgb(129, 129, 129) solid;
+  padding: 10px;
+}
+
+.form-contacto{
+  line-height: 40px;
+}
+
+.form-contacto label,textarea,button{
+  font-weight: bolder;
+  margin-left: 2rem;
+}
+
+textarea,input{
+  border-radius: 5px;
+}
+
+.form-contacto input{
+  height: 22px;
+  width: 300px;
+  border: lightslategray 1px solid;
+}
+
+.enviar-datos{
+  background-color: green;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+  color: white;
+  pointer-events: auto;
+}
+
+.enviar-datos:hover{
+  background-color: rgb(0, 77, 0);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+
+.limpiar-datos{
+  background-color: red;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+  color: white;
+}
+
+.limpiar-datos:hover{
+  background-color: rgb(173, 2, 2);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.integrantes{
+  line-height: 50px;
+  list-style: circle;
+  margin-left: 2rem;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

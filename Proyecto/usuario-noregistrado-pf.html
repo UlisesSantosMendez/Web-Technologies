@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usuario no registrado | Preguntas frecuentes</title>
+    <link rel="stylesheet" href="/project/css/main.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/project/src/logo.png" alt="logo" />
+        <h1>Sistema de Gestión Escolar</h1>
+    </header>
+    <ul class="nav">
+        <li><a href="/project/usuario-noregistrado.php">Principal</a></li>
+        <li><a href="/project/usuario-noregistrado-ad.html">Acerca de</a></li>
+        <li><a href="/project/usuario-noregistrado-pf.html" style="background-color: blue;">Preguntas frecuentes</a></li>
+        <li><a href="/project/usuario-noregistrado-cto.php">Contacto</a></li>
+        <li><a href="/project/usuario-noregistrado-ay.html">Ayuda</a></li>
+    </ul>
+    <section name="area-desplegar">
+        <h2>Sección de preguntas frecuentes</h2>
+        <h3 style="margin-top: 2rem;">¿Cómo puedo darme de alta en el sistema?</h3>
+        <p>Debes localizar el apartado que dice "Registrarse" dentro de la parte derecha de la pantalla de inicio, justo después del formulario de inicio de sesión.
+        </p>
+        <h3>¿Cómo sé qué tipo de usuario soy?</h3>
+        <p>Dentro de los tipos de usuarios encontraras una breve descripción del los tipos de usuarios que existen, de esa manera vas a poder identificar el tipo de usuario que eres.
+        </p>
+        <h3>¿Cómo puedo recuperar mi contraseña?</h3>
+        <p>Debes localizar el apartado que dice "Recuperar contraseña" dentro de la parte derecha de la pantalla de inicio, justo después del formulario de inicio de sesión.
+        </p>
+        <h3>¿Cómo puedo ponerme en contacto con el administrador del sistema?</h3>
+        <p>Dentro de la pestaña de "Ayuda" puedes encontrar la información para poder comunicarte con nosotros.
+        </p>
+    </section>
+    <aside>
+        <h2>Inicio de sesión</h2>
+        <form action="/project/validation.php" method="post" class="login-form">
+            <label for="">Usuario:</label>
+            <input type="text" name="usuario" required>
+            <label for="">Contraseña:</label>
+            <input type="password" name="contrasena" required>
+            <label>Tipo de usuario:</label>
+            <select name="tipo_usuario" id="tipo_usuario" style="border: black 2px solid;">
+                <option value="Administrador">Administrador</option>
+                <option value="Alumno" selected>Alumno</option>
+                <option value="Profesor">Profesor</option>
+            </select>
+            <button type="submit">Iniciar sesión</button>
+
+            <a href="/project/registro.php">Registrarse</a>
+            <a href="#">Recuperar contraseña</a>
+        </form>
+    </aside>
+    <footer>
+        <h4>Copyright © 2021 Equipo 3 | Todos los derechos reservados.</h4>
+        <h4>equipo3_tecweb@mail.com</h4>
+    </footer>
+</body>
+
+</html>

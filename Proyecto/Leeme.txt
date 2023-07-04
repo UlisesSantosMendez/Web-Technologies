@@ -1,0 +1,9 @@
+Pasos necesarios para ejecutar este proyecto.
+
+1. Descargar e instalar Xampp desde: https://www.apachefriends.org/es/download.html
+2. Descargar y extraer los archivos del proyecto desde: https://drive.google.com/drive/folders/1S80VwQeCXNvZsYZdgXqmRyUENTWAbsy5
+3. Copiar el directorio extraído en la carpeta C:\xampp\htdocs\
+4. Ejecutar Xampp Control Panel (previamente instalado)
+5. Iniciar los servicios de apache y mysql presionando el botón "start"
+6. Abrir el navegador e ir a localhost/nombre de la carpeta (esta forzosamente debe ser 'project')
+7. Abrir el archivo http://localhost/project/usuario-noregistrado.html que funcionaría como el index de la aplicación.
