@@ -1,0 +1,66 @@
+<curriculum-vitae>
+    <encabezado_curriculum>
+        <datos-del-profesionista>
+            <nombre-profesionista formato="texto">
+            </nombre-profesionista>
+            <puesto-buscado formato="texto">
+            </puesto-buscado>
+            <direccion-del-profesionista>
+                <Nombre-calle formato="texto">
+                </Nombre-calle>
+                <Colonia formato="texto">
+                </Colonia>
+                <numero-calle formato="numero-entero">
+                </numero-calle>
+                <Municipio formato="texto">
+                </Municipio>
+                <cod-postal formato="numero-entero">
+                </cod-postal>
+            </direccion-del-profesionista>
+            <correo-electronico formato="texto">
+            </correo-electronico>
+            <telefono formato="numero-entero">
+            </telefono>
+        </datos-del-profesionista>
+    </encabezado_curriculum>
+    <cuerpo-curriculum>
+        <presentacion formato="texto">
+        </presentacion>
+        <intereses>
+            <viajes formato="texto">
+            </viajes>
+            <deportes formato="texto">
+            </deportes>
+        </intereses>
+        <idiomas>
+            <tipo-idioma formato="texto">
+            </tipo-idioma>
+            <nivel-de-dominio formato="texto">
+            </nivel-de-dominio>
+        </idiomas>
+        <Habilidades>
+            <tipo-habilidad formato="texto">
+            </tipo-habilidad>
+            <nivel-dominio formato="texto">
+            </nivel-de-dominio>
+        </Habilidades>
+        <educacion>
+            <duracion formato="numero-entero">
+            </duracion>
+            <institucion formato="texto">
+            </institucion>
+            <grado formato="texto">
+            </grado>
+        </educacion>
+        <experiencias>
+            <periodo formato="texto">
+            </periodo>
+            <lugar formato="texto">
+            </lugar>
+            <nombre-empresa formato"texto">
+            </nombre-empresa>
+            <puesto-cargo formato="texto">
+            </puesto-empresa>
+        </experiencias>
+    </cuerpo-curriculum>
+</curriculum-vitae>

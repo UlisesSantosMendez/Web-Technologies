@@ -1,0 +1,69 @@
+<curriculum-vitae-2>
+	<encabezado-curriculum>
+		<datos-profesionista>
+			<imagen-profesional formato="imagen">
+			</imagen-profesional>
+			<nombre-profesionista formato="texto">
+			</nombre-profesionista>
+			<cargo-puesto formato="texto">
+			</cargo-puesto>
+			<correo-electronico formato="texto">
+			</correo-electronico>
+			<direccion-del-profesionista formato="texto">
+			</direccion-del-profesionista>
+			<telefono formato="numero-entero">
+			</telefono>
+		<datos-profesionista>
+	</encabezado-curriculum>
+	<br>
+	<cuerpo-curriculum>
+		<leyenda>PERFIL PROFESIONAL
+			<descripcion-profesional formato="texto">
+			</descripcion-profesional>
+		</leyenda>
+		<leyenda>EXPERIENCIA LABORAL
+			<fechas-laborando formato="numero-entero">
+			</fechas-laborando>
+			<acciones-destacadas formato="texto">
+			</acciones-destacadas>
+			<puestos-anteriores formato="texto">
+			</puestos-anteriores>
+		</leyenda>
+		<leyenda>CERTIFICADOS
+			<descripcion-certificado formato="texto">
+			</descripcion-certificado>
+			<institucion-certificado formato="texto">
+			</institucion-certificado>
+		</leyenda>
+		<leyenda>IDIOMAS
+			<lenguajes formato="texto">
+			</lenguajes>
+			<nivel-de-dominio formato="texto">
+			</nivel-de-dominio>
+		</leyenda>
+		<leyenda>HARD SKILLS
+			<nombre-habilidad formato="texto">
+			</nombre-habilidad>
+		</leyenda>
+		<leyenda>FORMACION ACADEMICA
+			<anio-academico formato="numero-entero">
+			</anio-academico>
+			<asunto-academico formato="texto">
+			</asunto-academico>
+			<institucion-academica formato="texto">
+			</institucion-academica>
+			<nombre-curso formato="texto">
+			</nombre-curso>
+			<institucion formato="texto">
+			</institucion>
+		</leyenda>
+	</cuerpo-curriculum>
+	<br>
+	<pie-curriculum>
+		<leyenda>MAS SOBRE MI
+			<img>
+				<canva>
+			</img>
+		</leyenda>
+	</pie-curriculum>
+</curriculum-vitae-2>

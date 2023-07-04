@@ -1,0 +1,50 @@
+<carta-poder>
+	<encabezado-carta>
+		<leyenda>
+			Carta Poder
+		</leyenda>
+		<fecha dia="numero-entero" mes="texto" anio="numero-entero">
+		</fecha>
+	</encabezado-carta>
+	<contenido-poder>
+		<leyenda>
+			Sr
+			<presente cadena="texto">
+			</presente>
+			Por la presente
+			<accion formato="texto">
+			</accion>
+			al Sr.
+			<nombre-receptor formato="texto">
+			</nombre-receptor>
+			poder amplio, cumplido y bastante para que a
+			<accion-comparecer formato="texto">
+			</accion-comparecer>
+			nombre y representacion 
+			<terminos condiciones="texto">
+			</terminos>
+			y asi mismo para que conteste las demandas y recomendaciones que se entablan en mi contra,
+			o ponga excepciones dilatorias y perentorias, rinda toda clase de pruebas, reconozca 
+			firmas y documentos, redarguya de falsos a los que se presenten por la contraria,presente
+			testigos, vea protestar a los de la contraria y los represente y tache, articule y absuelva
+			posiciones, recuse Jueces superiores o inferiores, oiga asuntos interlocutorios y definitivos,
+			consiente de los favorables y pida revocacion por contrario imperio, apele, interponga el 
+			recurso de amparo y se desista de los que interponga, pida aclaracion de las sentencias,
+			ejecute, embargue y me represente en los embargos que contra mi se decreten, pida el 
+			remate de los bienes embargados, nombre peritos y acuse a los de la contraria, asista a
+			almonedas, transe este juicio, perciba valores y otorgue recibos y cartas de pago, someta
+			el presente juicio a la decision de los Jueces, arbitros y arbitradores, gestione el 
+			otorgamiento de garantias, y en fin, para que promueva todos los recursos que favorezcan
+			mis derechos, asi como para que sustituya este poder ratificando desde hoy todo lo que 
+			haga sobre este particular.
+		</leyenda>
+		<firma-acepto formato="firma">
+		</firma-acepto>
+		<firma-otorgante formato="firma>
+		</firma-otorgante>
+		<firma-testigo1 formato="firma">
+		</firma-testigo1>
+		<firma-testigo2 formato="firma">
+		</firma-testigo2>
+	</contenido-poder>
+</carta-poder>

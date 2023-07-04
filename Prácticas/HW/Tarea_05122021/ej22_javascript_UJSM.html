@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Cajas de texto</title>
+		<meta name="description" content="ejercicio_diapositiva_22" />
+		<meta name="author" content="Ulises Jesus Santos Mendez" />
+		<meta name="keywords" content="html,css,cajas de texto" />
+		<meta name="copyright" content="© Ulises JSM" />
+		<script languaje="JavaScript"><!--extension para lenguaje de javascript-->
+			function ValidarClave(){ <!-- funcion que permite validar si ingresas el usuario y la clave correcta-->
+				with(document.formulario)
+				if(Usuario.value==""){
+					alert("Introduzca el nombre del usuario") <!--comentario como alerta con mensaje de advertencia-->
+					Usuario.focus() <!-- establece el enfoque en un area de texto-->
+				}
+				else{
+					if(Usuario.value=="Jesus")&&(Clave.value=="papakt"){
+						alert("Acceso permitido")
+					}
+					else{
+						alert("Acceso denegado")
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form name="formulario<!--form representa a un formulario-->
+			Nombre:<input type="text" name="Usuario">
+			<br>
+			Clave:<input type="text" name="Clave" onblur="ValidarClave()">
+			<!--el evento onblur es utilizado como una forma para validar codigo, indica que se ha abandonado
+			el ambito de un elemento-->
+		</form>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Eventos</title>
+		<meta name="description" content="ejercicio_diapositiva_18" />
+		<meta name="author" content="Ulises Jesus Santos Mendez" />
+		<meta name="keywords" content="html,css,eventos" />
+		<meta name="copyright" content="© Ulises JSM" />
+		<script languaje="JavaScript"> <!--extension para lenguaje JavaScript-->
+			function ComprobarEdad(Objeto){ <!--funcion con parametro Objeto que valida una edad-->
+				if(isNaN(Objeto.value)){
+					alert ("Introduzca una edad correcta")
+					Objeto.value=""
+					Objeto.focus()
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form><!--form representa a un formulario-->
+		<!--el evento onblur es utilizado como una forma para validar codigo, indica que se ha abandonado
+			el ambito de un elemento-->
+			Nombre:<input type="text" name="Nombre" onblur='if(Nombre.value=="")alert("Deberellenar el campo Nombre")'>
+			<br>
+			Edad:<input type="text" name="Edad" onblur="ComprobarEdad(this)">
+		</form>
+	</body>
+</html>

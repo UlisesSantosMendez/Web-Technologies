@@ -1,0 +1,102 @@
+<libro>
+	<portada>
+		<titulo></titulo>
+		<autor></autor>
+		<imagen_de_portada></imagen_de_portada>
+		<editorial></editorial>
+	</portada>
+	
+	<contraportada>
+		<hoja_1>
+			<titulo></titulo>
+			<autor></autor>
+			<edicion></edicion>
+			<editorial></editorial>
+			<clasificacion></clasificacion>
+			<!--traduccion_del_libro></traduccion_del_libro-->
+		</hoja_1>
+		
+		<hoja_2>
+			<titulo_original></titulo_original>
+			<lugar></lugar>
+			<fecha_de_publicacion></fecha_de_publicacion>
+			<persona-traduccion></persona-traduccion>
+			<revision-tecnica>
+				<revisor1></revisor1>
+				<revisor2></revisor2>
+				<revisor3></revisor3>
+			</revision-tecnica>
+			
+			<formato_del_libro>
+				<impreso>
+					<edicion_impresion></edicion_impresion>
+					<ejemplares_impresos></ejemplares_impresos>
+				</impreso>
+				
+				<digital>
+					<internet></internet>
+					<correo-electronico></correo-electronico>
+				</digital>
+			</formato_del_libro>
+			
+			<editorial></editorial>
+			<direccion-fisica></direcion-fisica>
+			<lugar-impresion></lugar-impresion>
+		</hoja_2>
+	</contraportada>
+	
+	<Indice>
+		<prefacio></prefacio>
+		
+		<capitulo-1>
+			<tema-1-1>
+				<subtema-1-1-1></subtema-1-1-1>
+				<subtema-1-1-2></subtema-1-1-2>
+				<subtema-1-1-3></subtema-1-1-3>
+			</tema-1-1>
+			<tema-1-2>
+				<subtema-1-2-1></subtema-1-2-1>
+				<subtema-1-2-2></subtema-1-2-2>
+				<subtema-1-2-3></subtema-1-2-3>
+			</tema-1-2>
+			
+			<resumen-de-capitulo-1></resumen-de-capitulo-1>
+		</capitulo-1>
+		
+		<capitulo-2>
+			<tema-2-1>
+				<subtema-2-1-1></subtema-2-1-1>
+				<subtema-2-1-2></subtema-2-1-2>
+				<subtema-2-1-3></subtema-2-1-3>
+			</tema-2-1>
+			<tema-2-2>
+				<subtema-2-2-1></subtema-2-2-1>
+				<subtema-2-2-2></subtema-2-2-2>
+				<subtema-2-2-3></subtema-2-2-3>
+			</tema-2-2>
+			
+			<resumen-de-capitulo-2></resumen-de-capitulo-2>
+		</capitulo-2>
+		
+		<capitulo-3>
+			<tema-3-1>
+				<subtema-3-1-1></subtema-3-1-1>
+				<subtema-3-1-2></subtema-3-1-2>
+				<subtema-3-1-3></subtema-3-1-3>
+			</tema-3-1>
+			<tema-3-2>
+				<subtema-3-2-1></subtema-3-2-1>
+				<subtema-3-2-2></subtema-3-2-2>
+				<subtema-3-2-3></subtema-3-2-3>
+			</tema-3-2>
+			
+			<resumen-de-capitulo-3></resumen-de-capitulo-3>
+		</capitulo-3>
+		
+		<referencias></referencias>
+		<apendice>
+			<seccion-A></seccion-A>
+			<seccion-B></seccion-B>
+		</apendice>
+	</Indice>
+</libro>
